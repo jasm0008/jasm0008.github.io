@@ -1,10 +1,10 @@
 body{
-    background-color: green;
+    background-color: rgb(231, 231, 231);
     /* changing the font family - alywas do a list of fall-backs*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
 header, footer{
-    background-color: aqua;
+    background-color: rgb(255, 196, 0);
 }
