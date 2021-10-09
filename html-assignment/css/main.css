@@ -1,0 +1,10 @@
+body{
+    background-color: green;
+    /* changing the font family - alywas do a list of fall-backs*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: aqua;
+}
