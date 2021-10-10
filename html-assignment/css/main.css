@@ -25,5 +25,5 @@ header, footer{
 }
 
 ul:nth-child(1n-1){
-    background-color: black;
+    background-color: rgb(0, 110, 255);
 }
