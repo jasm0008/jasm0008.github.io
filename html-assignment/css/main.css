@@ -18,19 +18,33 @@ header, footer{
 
 }
 
+/* targetting the id "my-image" and apply the styling */
 #my-image{
 
     box-shadow:0px 0px 2px 1px  black;
 
 }
 
+/* targetting any that uses the tag ul from the top to bottom to apply a back-colour */
 ul:nth-child(1n-1){
     background-color: rgb(0, 132, 255);
 }
 
+/* targetting top nav links of the site  */
 .site-top-links{
 
     background-color: rgb(0, 132, 255);
     border-style: dotted;
-    
+
 }
+
+/* any visited links will be apply to the styling */
+a:visited{
+    color:green;
+}
+
+/* any hovering links will be apply to the styling  */
+a:hover{
+    color:red;
+}
+
