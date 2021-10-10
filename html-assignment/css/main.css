@@ -1,19 +1,29 @@
+/* targetting all body and changing back-colour and font settings */
 body{
     background-color: rgb(231, 231, 231);
-    /* changing the font family - alywas do a list of fall-backs*/
+    /* changing the font family */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
+/* creating background colour for all header and footer */
 header, footer{
     background-color: rgb(255, 196, 0);
 }
 
+/* targetting id ".site-title" to style the title of the site */
 .site-title{
 
     color:rgb(231, 231, 231);
-    
 
+}
 
+#my-image{
 
+    box-shadow:0px 0px 2px 1px  black;
+
+}
+
+ul:nth-child(1n-1){
+    background-color: black;
 }
