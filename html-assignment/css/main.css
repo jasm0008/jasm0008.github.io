@@ -25,5 +25,12 @@ header, footer{
 }
 
 ul:nth-child(1n-1){
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(0, 132, 255);
+}
+
+.site-top-links{
+
+    background-color: rgb(0, 132, 255);
+    border-style: dotted;
+    
 }
