@@ -66,19 +66,39 @@ body{
     background-repeat:repeat; 
 }
 
+.site-top-links{
+    background-color: rgb(209, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.site-top-links a{
+    float: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* applies bold text to the title page */
+.title-page{
+    font-weight: bold;
+}
+
+
 .using-viewport{
 
+    /* centers the childrens from the class using-viewport */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
     background-color: rgb(209, 255, 255);
     background-position: center;
     width:50%;
     height:50%; /*height can be using % because of "class="using-percent" */
 
-    font-weight:normal; /*font weight is how thick the font is*/
+    font-weight: 380; /*font weight is how thick the font is*/
 
     letter-spacing: 0.1em; /*set the space between the letter (kerning)*/
 
