@@ -68,14 +68,20 @@ body{
 
 .site-top-links{
     background-color: rgb(209, 255, 255);
+    position: relative;
     overflow: hidden;
     font-weight: bold;
 }
 
 .site-top-links a{
-    float: center;
-    text-align: center;
-    text-decoration: none;
+
+
+    /* placing the texts in the middle and beside each other */
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
