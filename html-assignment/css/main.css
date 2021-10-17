@@ -31,7 +31,9 @@ a:link{
 
 }
 
-/* targetting any that uses the tag ul from the top to bottom to apply a back-colour */
+/* targetting any that uses the tag ul from the top to bottom to apply a back-colour 
+2n-1 for odd number rows
+*/
 ul:nth-child(2n-1){
     background-color: rgb(0, 132, 255);
 }
