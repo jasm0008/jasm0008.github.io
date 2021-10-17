@@ -18,6 +18,11 @@ header, footer{
 
 }
 
+/* remove text underline for links */
+a:link{
+    text-decoration: none;
+}
+
 /* targetting the id "my-image" and apply the styling */
 
 #my-image{
