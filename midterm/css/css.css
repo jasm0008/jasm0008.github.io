@@ -66,24 +66,44 @@ body{
     background-repeat:repeat; 
 }
 
-.site-top-links{
-    background-color: rgb(209, 255, 255);
-    overflow: hidden;
+/**************************************************
+                        NAV
+****************************************************/
+
+
+nav{
+    display: block;
+    height: 44px;
+    margin-bottom: 20px;
+    border-bottom: 2px;
     font-weight: bold;
+    position: relative;
+    
+    bottom: 60%;
+
 }
 
-.site-top-links a{
-
-
-    /* placing the texts in the middle and beside each other */
-    float: none;
-    position: absolute;
-    color: #000000;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+nav li{
+    float:left;  /* this will make the li elements, which are bloack elements, sit next to each other*/
 }
 
+nav a{
+    display:inline-block; /* make the anchor tags into boxes so we can do something interesting to them*/
+    text-align: center;
+    margin:0 5px;/* 0 on the top and bottom, 5px on the left and right*/
+    text-decoration: none;/* removes the underline default from the links */
+    width: 142px;
+    height: 44px;
+}
+
+/* target the span inside, anchor tags, inside list items, inside the nav */
+nav li a span{
+    display: block;
+    float: left;
+    font-size: 1.6rem; /* 1.6 time the root font size set in HTML*/
+    line-height: 2.5; /* 2.5 times the font size of this element*/
+    color: blue;
+}
 
 /* applies bold text to the title page */
 .title-page{
@@ -114,3 +134,12 @@ body{
     list-style:none; /*this removes bullets from a list (but is already in the CSS reset) */
 
 }
+
+/**************************************************
+                        CONTENT
+****************************************************/
+
+form{
+    border: 2px solid rgb(0, 0, 0);
+}
+
