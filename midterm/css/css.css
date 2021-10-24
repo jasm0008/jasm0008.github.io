@@ -56,7 +56,7 @@ html{
     font-size: 22px;
     /* sets a default font-family for the page
     always provide a list of fonts as fall back options - end with a generic font type */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -121,7 +121,7 @@ nav li a span{
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
     background-color: rgb(209, 255, 255);
     background-position: center;
-    width:50%;
+    width:40%;
     height:50%; /*height can be using % because of "class="using-percent" */
 
     font-weight: 380; /*font weight is how thick the font is*/
@@ -143,3 +143,24 @@ form{
     border: 2px solid rgb(0, 0, 0);
 }
 
+#contacttile{
+    font-weight: bold;
+}
+
+#message{
+    /* making the text box taller */
+    height: 80px;
+}
+
+footer{
+    /* relative is to move it but keeping it to the box */
+    position: relative;
+    left: 550px;
+}
+
+form{
+    position: relative;
+    left: 10px;
+    width: 740px;
+   height: 370px;
+}
