@@ -62,7 +62,7 @@ html{
 
 /* setting colour background to the page only towards the body */
 body{
-    background-color: rgb(140, 195, 216);
+    background-color: rgb(140, 216, 203);
     background-repeat:repeat; 
 }
 
@@ -115,11 +115,12 @@ nav li a span{
 
     /* centers the childrens from the class using-viewport */
     display: block;
+    position: center;
     margin-left: auto;
     margin-right: auto;
 
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
-    background-color: rgb(209, 255, 255);
+    background-color: rgb(191, 218, 214);
     background-position: center;
     width:40%;
     height:50%; /*height can be using % because of "class="using-percent" */
@@ -150,17 +151,24 @@ form{
 #message{
     /* making the text box taller */
     height: 80px;
+    width: 860px;
+}
+
+#username, #useremail{
+    width: 860px;
+    height: 20px;
 }
 
 footer{
     /* relative is to move it but keeping it to the box */
     position: relative;
-    left: 550px;
+    left: 78%;
 }
 
 form{
     position: relative;
     left: 10px;
-    width: 740px;
-   height: 370px;
+    width: 885px;
+   height: auto;
 }
+
