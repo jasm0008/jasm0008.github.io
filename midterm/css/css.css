@@ -159,6 +159,11 @@ form{
     height: 20px;
 }
 
+.form-position{
+    position: center;
+    margin-left: 10px;
+    margin-right: auto;
+}
 footer{
     /* relative is to move it but keeping it to the box */
     position: relative;
@@ -169,6 +174,6 @@ form{
     position: relative;
     left: 10px;
     width: 885px;
-   height: auto;
+    height: 420px;
 }
 
