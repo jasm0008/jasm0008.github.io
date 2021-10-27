@@ -225,11 +225,21 @@ footer{
 form{
     display: block;
     /* creating a border box */
-    border: 2px solid rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     position: relative;
     left: 10px;
     width: 585px;
-    height: 300px;
+    height: 310px;
+}
+
+#send-button{
+    text-align:initial;
+    font-size: 60%;
+    border: 1.5px solid rgb(0, 0, 0);
+    position: relative;
+    width: 35px;
+    height: 20px;
+    
 }
 
 /**************************************************
