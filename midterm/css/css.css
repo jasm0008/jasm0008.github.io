@@ -70,7 +70,7 @@ body{
 /**************************************************
                         LINKS
 ****************************************************/
-
+/* making no matter the visited, viewed or hover links. They will always be black */
 a:link{
     color: black;
     font-weight: bold;
