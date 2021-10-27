@@ -60,8 +60,10 @@ html{
 
 /* setting colour background to the page only towards the body */
 body{
+    
     background-color: rgb(140, 216, 203);
     background-repeat:repeat; 
+    
 }
 
 /**************************************************
