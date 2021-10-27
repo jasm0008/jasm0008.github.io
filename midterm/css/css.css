@@ -67,9 +67,7 @@ body{
 /**************************************************
                         NAV
 ****************************************************/
-/**************************************************
-                        LINKS
-****************************************************/
+
 /* making no matter the visited, viewed or hover links. They will always be black */
 a:link{
     color: black;
@@ -184,6 +182,11 @@ nav li a span{
     margin-right: auto;
 }
 
+#starfish-phrase{
+    text-align: justify;
+    width: 585px;
+}
+
 .facts-starfish{
     margin-left: 10px;
     margin-right: auto;
@@ -237,9 +240,15 @@ form{
     font-size: 60%;
     border: 1.5px solid rgb(0, 0, 0);
     position: relative;
-    width: 35px;
+    width: 36px;
     height: 20px;
     
+}
+
+#send-text{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
 }
 
 /**************************************************
@@ -251,6 +260,7 @@ form{
 }
 
 .starfish-sub-pic{
+    margin-right: 10px;
     float: left;
     position: relative;
     width: 150px;
