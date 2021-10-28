@@ -251,6 +251,7 @@ form{
 /**************************************************
                     IMAGES CONTENT
 ****************************************************/
+/* maximazing top image to its max potential */
 .top-image{
     width: 100%;
 }
@@ -262,6 +263,7 @@ form{
     width: 150px;
 }
 
+/* positioning h2 from div "top-image" */
 h2 {
     position: absolute;
     top: 50%;
@@ -269,6 +271,7 @@ h2 {
     transform: translate(-50%, -590%);
 }
 
+/* to style the h2 from the div "top-image" */
 h2 span{
     color: white;
     font-size: 300%;
