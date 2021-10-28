@@ -163,11 +163,6 @@ nav li a span{
 }
 
 
-
-
-
-
-
 /**************************************************
                         CONTENT
 ****************************************************/
@@ -257,7 +252,6 @@ form{
                     IMAGES CONTENT
 ****************************************************/
 .top-image{
-    position: relative;
     width: 100%;
 }
 
@@ -266,4 +260,17 @@ form{
     float: left;
     position: relative;
     width: 150px;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -590%);
+}
+
+h2 span{
+    color: white;
+    font-size: 300%;
+
 }
