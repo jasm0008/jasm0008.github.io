@@ -152,6 +152,7 @@ a:active{
     /* centers the childrens from the class using-viewport */
     position: center;
     margin-left: auto;
+    margin-right: auto;
 
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
     background-color: rgb(191, 218, 214);
@@ -272,7 +273,7 @@ form{
 h2 {
     position: absolute;
     top: 53%;
-    left: 78%;
+    left: 50%;
     transform: translate(-50%, -590%);
 }
 
