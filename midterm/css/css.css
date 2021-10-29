@@ -120,17 +120,8 @@ nav li a span{
 
 
 /* making no matter the visited, viewed or hover links. They will always be black */
-a:link{
-    color: black;
-    font-weight: bold;
-}
 
-a:visited{
-    color: black;
-    font-weight: bold;
-}
-
-a:active{
+a:visited, a:active, a:link {
     color: black;
     font-weight: bold;
 }
