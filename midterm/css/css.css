@@ -72,22 +72,19 @@ body{
 nav > ul >li {
     display: inline-block;
     width: initial;
-
     white-space:nowrap;
-
-    transform: translate(5px, 0);
-
+    transform: translate(10px, 0);
     margin: 0;
 }
 
 /* creating a vertical border and targets after each words */
 nav ul li:not(:last-child)::after{
     content:""; 
-    border:20px solid #000000;
-    border-width: 15px 0.5px 0 0;
-    position: relative;
+    border: solid #000000;
+    border-width: 13px 1px 0 0;
     
     /* using left to move the border */
+    position: relative;
     left: 15px;
     margin-right: 0px;
 }
@@ -96,11 +93,11 @@ nav li a {
     text-align: center;
     margin-left: 87px;
     margin-right: 60px;
+    position: relative;
+    top: -5px;
  }
  
 nav{
-    position:relative;
-    height: 30px;
     margin: 40px;
     display:inline;
 }
@@ -189,7 +186,7 @@ a:active{
 
 #starfish-phrase{
     text-align: justify;
-    width: 585px;
+    width: 650px;
 }
 
 .facts-starfish{
@@ -209,12 +206,12 @@ a:active{
     /* making the text box taller */
     margin-top: 5px;
     height: 50px;
-    width: 560px;
+    width: 625px;
 }
 
 #username, #useremail{
     margin-top: 5px;
-    width: 560px;
+    width: 625px;
     height: 15px;
 }
 
@@ -236,7 +233,7 @@ form{
     border: 1.5px solid rgb(0, 0, 0);
     position: relative;
     left: 10px;
-    width: 585px;
+    width: 650px;
     height: 310px;
 }
 
@@ -274,7 +271,7 @@ form{
 /* positioning h2 from div "top-image" */
 h2 {
     position: absolute;
-    top: 52%;
+    top: 53%;
     left: 78%;
     transform: translate(-50%, -590%);
 }
