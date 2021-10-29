@@ -69,6 +69,58 @@ body{
 /**************************************************
                         NAV
 ****************************************************/
+nav > ul >li {
+    display: inline-block;
+    width: initial;
+
+    white-space:nowrap;
+
+    transform: translate(5px, 0);
+
+    margin: 0;
+}
+
+/* creating a vertical border and targets after each words */
+nav ul li:not(:last-child)::after{
+    content:""; 
+    border:20px solid #000000;
+    border-width: 15px 0.5px 0 0;
+    position: relative;
+    
+    /* using left to move the border */
+    left: 15px;
+    margin-right: 0px;
+}
+
+nav li a {
+    text-align: center;
+    margin-left: 87px;
+    margin-right: 60px;
+ }
+ 
+nav{
+    position:relative;
+    height: 30px;
+    margin: 40px;
+    display:inline;
+}
+
+nav li{
+    float:center;  /* this will make the li elements, which are block elements, sit next to each other*/
+}
+
+nav a{
+    margin:0 0;/* Xpx on the top and bottom, Xpx on the left and right*/
+    text-decoration: none;/* removes the underline default from the links */
+}
+
+/* target the span inside, anchor tags, inside list items, inside the nav */
+nav li a span{
+    font-size: 1.6rem; /* 1.6 time the root font size set in HTML*/
+    line-height: 2.5; /* 2.5 times the font size of this element*/
+    color: rgb(0, 0, 0);
+}
+
 
 /* making no matter the visited, viewed or hover links. They will always be black */
 a:link{
@@ -86,47 +138,9 @@ a:active{
     font-weight: bold;
 }
 
-nav li {
-    margin-right: 60px;
-    margin-left: 50px;
-    list-style:none;
-    text-decoration: none;
-    display: block;
-    text-align: center;
- }
- 
-nav{
-    position:relative;
-    left: 20px;
-    height: 30px;
-    width: 100%;
-    margin: 10px auto;
-    display: block;
-}
-
-nav li{
-    float:left;  /* this will make the li elements, which are bloack elements, sit next to each other*/
-    display: block;
-}
-
-nav a{
-    display:inline; /* make the anchor tags into boxes so we can do something interesting to them*/
-    text-align: center;
-    margin:0 10px;/* 0 on the top and bottom, 10px on the left and right*/
-    text-decoration: none;/* removes the underline default from the links */
-}
-
-/* target the span inside, anchor tags, inside list items, inside the nav */
-nav li a span{
-    display: block;
-    float: left;
-    font-size: 1.6rem; /* 1.6 time the root font size set in HTML*/
-    line-height: 2.5; /* 2.5 times the font size of this element*/
-    color: rgb(0, 0, 0);
-
-}
-
-
+/**************************************************
+                    MAIN CONTENT
+****************************************************/
 
 /* applies bold text to the title page */
 .title-page{
@@ -138,18 +152,15 @@ nav li a span{
 
 
 .using-viewport{
-
     /* centers the childrens from the class using-viewport */
-    display: block;
     position: center;
     margin-left: auto;
-    margin-right: auto;
 
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
     background-color: rgb(191, 218, 214);
     background-position: center;
-    width:40%;
-    height:50%; /*height can be using % because of "class="using-percent" */
+    width:44%;
+    height:40%; /*height can be using % because of "class="using-percent" */
 
     font-weight: 380; /*font weight is how thick the font is*/
 
@@ -166,9 +177,6 @@ nav li a span{
 /**************************************************
                         CONTENT
 ****************************************************/
-
-
-
 .facts-header{
     font-weight: bold;
 }
@@ -266,8 +274,8 @@ form{
 /* positioning h2 from div "top-image" */
 h2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 52%;
+    left: 78%;
     transform: translate(-50%, -590%);
 }
 
