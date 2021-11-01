@@ -260,9 +260,9 @@ form{
 /* positioning h2 from div "top-image" */
 h2 {
     position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -590%);
+    top: 13%;
+    left: 829px;
+
 }
 
 /* to style the h2 from the div "top-image" */
