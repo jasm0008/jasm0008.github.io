@@ -91,7 +91,7 @@ nav ul li:not(:last-child)::after{
 
 nav li a {
     text-align: center;
-    margin-left: 87px;
+    margin-left: 92px;
     margin-right: 60px;
     position: relative;
     top: -5px;
@@ -103,7 +103,7 @@ nav{
 }
 
 nav li{
-    float:center;  /* this will make the li elements, which are block elements, sit next to each other*/
+    float:left;  /* this will make the li elements, which are block elements, sit next to each other*/
 }
 
 nav a{
@@ -133,7 +133,7 @@ a:visited, a:active, a:link {
 /* applies bold text to the title page */
 .title-page{
     font-weight: bold;
-    position: center;
+
     margin-left: 10px;
     margin-right: auto;
 }
@@ -141,14 +141,13 @@ a:visited, a:active, a:link {
 
 .using-viewport{
     /* centers the childrens from the class using-viewport */
-    position: center;
     margin-left: auto;
     margin-right: auto;
 
     /* percent responds to the element's parent, in this case the element with the class .using-viewport */
     background-color: rgb(191, 218, 214);
     background-position: center;
-    width:44%;
+    width:35%;
     height:40%; /*height can be using % because of "class="using-percent" */
 
     font-weight: 380; /*font weight is how thick the font is*/
@@ -171,7 +170,6 @@ a:visited, a:active, a:link {
 }
 
 .starfish-subject{
-    position: center;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -189,7 +187,6 @@ a:visited, a:active, a:link {
 
 #contact-title{
     font-weight: bold;
-    position: center;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -209,7 +206,6 @@ a:visited, a:active, a:link {
 
 .form-position{
     display: block;
-    position: center;
     margin-left: 10px;
     margin-right: auto;
 }
@@ -260,6 +256,7 @@ form{
     width: 150px;
 }
 
+/* LONE STARFISH TEXT */
 /* positioning h2 from div "top-image" */
 h2 {
     position: absolute;
