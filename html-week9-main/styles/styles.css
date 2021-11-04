@@ -149,6 +149,7 @@ nav ul{
 				Media Queries
 ***********************************************************/
 
+/* outside the media screen is for mobile */
 @media screen and (min-width:800px){
 
     h1{
