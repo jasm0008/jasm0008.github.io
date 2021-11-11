@@ -98,3 +98,27 @@ nav ul li{
 				        Flexbox
 ***********************************************************/
 
+nav ul{
+	display:flex;
+	/* justify conent tells the browser how you want the items inside the flexbox the behave the main axisx  */
+	justify-content:space-around;
+}
+
+/* the div with the class bodyflex contains both the main and the aside */
+.bodyflex{
+	display:flex;
+}
+
+main{
+	width:75%;
+}
+
+aside{
+	width:25%;
+	/* display flex is not inherited - so, if you want the aside to also use flexbox, you have to set it */
+	display:flex;
+	flex-direction:row-reverse;
+}
+
+
+
