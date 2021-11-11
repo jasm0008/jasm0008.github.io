@@ -220,6 +220,17 @@ aside .sidebarbox:nth-child(2){
 	/* vw = viewport width, vh = viewport height */
 	width:100vw;
 	height:100vh;
+	display:flex;
+	flex-direction:column;
+}
+
+.mobile-header div{
+	/* ignore the content (flex-basis:0) and make sure each takes up an equal amount of space across the column (flex-grow:1) */
+	flex-basis:0;
+	flex-grow:1;
+
+	/* fix the image so it doesn't repeat and always covers the whole box */
+	background-repeat:no-repeat;
 }
 
 /* means go up one folder, as we need to get from the css file to the image file */
