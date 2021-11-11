@@ -112,11 +112,17 @@ nav ul{
 }
 
 main{
-	width:75%;
+	/* width:75%; */
+	flex-basis:0;
+	flex-grow:3;
 }
 
 aside{
-	width:25%;
+	/* width:25%; */
+	
+	/* basis =0 ignore the content inside of it but will focus on the content outside */
+	flex-basis:0;
+	flex-grow:1;
 	/* display flex is not inherited - so, if you want the aside to also use flexbox, you have to set it */
 	display:flex;
 	flex-direction:column-reverse;
@@ -130,6 +136,14 @@ aside .sidebarbox{
 	/* then you have to use flex grow or flex shrink to tell the boxes how you want them to grow or shrink
 	relative to the space the have and to each other */
 	flex-grow:1;
+
+	display:flex;
+	/* justify content looks at the main axis (by default horizontal, or row) */
+	/* to use justify content you need to use display flex */
+	justify-content:center;
+	/* align-items looks at the cross axis (by default, vertical or column */
+	align-items:center;
+	
 }
 
 #fish{
@@ -141,8 +155,41 @@ aside .sidebarbox{
 
 #fish img{
 	width:100%;
-
-
 }
 
+#rainbow{
+	/* without any other instructions, elements with no content disappear when they are first set to display flex */
+	display: flex;
+}
+
+#rainbow div{
+	flex-basis:0;
+	flex-grow:1;
+}
+
+#rainbow #re, #rainbow #bl{
+	/* this will set these two divs to be twice the size of the other five, relative to the amount of space they have */
+	flex-grow:2;
+}
+
+#rainbow #gr{
+	flex-grow:4;
+}
+
+#content{
+	/* divs with content will try to take up as much space as they need, relative to the content of the other boxes */
+	display: flex;
+}
+
+#content p{
+	flex-basis:0;
+	flex-grow:1;
+}
+
+/* flex is a shorthand property that combines flex-grow, flex-shrink, and flex-basis (in that order) */
+#content p:nth-child(1){flex: 1 1 0;}
+#content p:nth-child(2){flex: 5 1 0;}
+#content p:nth-child(3){flex: 3 1 0;}
+#content p:nth-child(4){flex: 1 1 0;}
+#content p:nth-child(5){flex: 1 1 0;}
 
