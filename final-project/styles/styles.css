@@ -113,10 +113,11 @@ li a{
 
 
 nav{
-    display:inline;
+    text-align: center;
 }
 
 nav li{
+    display: inline;
     float:left;  /* this will make the li elements, which are block elements, sit next to each other*/
 }
 
