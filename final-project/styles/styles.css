@@ -47,8 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 /***********************************************************
                             MOBILE
 ***********************************************************/
@@ -81,15 +79,63 @@ table {
     width: 200px
 }
 
-.nav-background{
-width: 95%;
-height: 70%;            
-position: absolute;
-top: 0;
-left: center;
-right: center;
-opacity: 0.8;
-z-index: 4;
+.container{
+    /* centers the childrens from the class using-viewport */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* percent responds to the element's parent, in this case the element with the class .using-viewport */
+    background-color: #222;
+    background-position: center;
+
+/* z-index: 4; */
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+li a:hover {
+    background-color: #c78c06;
+    color:black;
+  }
+
+li a{
+    display: block;
+    color: #c78c06;
+}
+
+
+nav{
+    display:inline;
+}
+
+nav li{
+    float:left;  /* this will make the li elements, which are block elements, sit next to each other*/
+}
+
+nav li a{
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding: 15px;
+}
+nav a{
+    padding: 8px;
+    margin:0 0;/* Xpx on the top and bottom, Xpx on the left and right*/
+    text-decoration: none;/* removes the underline default from the links */
+}
+
+.toplogo{
+    position: relative;
+    left: 5%;
+}
+
+
 
 
