@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /***********************************************************
                             MOBILE
 ***********************************************************/
@@ -61,13 +63,33 @@ table {
         position: relative;
 
     }
-header{
-    /* background-color: #c78b07; */
+    
+    nav li a, form {
+        text-align: center;
+        margin-left: 92px;
+        margin-right: 60px;
+        position: relative;
+        top: -5px;
+        z-index: 4;
+     }
 
+    
+    
 }
 
 .about-usimg .digitalimg .johnimg{
     width: 200px
 }
 
+.nav-background{
+width: 95%;
+height: 70%;            
+position: absolute;
+top: 0;
+left: center;
+right: center;
+opacity: 0.8;
+z-index: 4;
 }
+
+
