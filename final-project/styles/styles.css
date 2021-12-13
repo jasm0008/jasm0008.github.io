@@ -155,6 +155,9 @@ header{
     flex-direction: column;
 }
 
+.searchbar{
+    padding-top: 10%;
+}
 
 /***********************************************************
                             DESKTOP
