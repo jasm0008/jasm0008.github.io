@@ -123,6 +123,27 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+#searchform i{
+    zoom: 150%;
+    color: #c78c06;
+    background-color: #222;
+    border: 1px solid #c78c06;
+}
+
+
+.overlay button{
+    background-color: #c78c06;
+    border-color: transparent;
+    padding: 5% 5%;
+}
+
+
+.overlay{
+    background-color:  rgba(34, 34, 34, 0.699);
+    position: relative;
+    top: 15%;
+}
+
 
 .logoimg{
     background-color: #c78c06;
@@ -134,7 +155,6 @@ nav ul input[type=text] {
 .toplogo{
     
 }
-
 
 .searchbar{
     padding-bottom: 10px;
@@ -158,6 +178,21 @@ nav ul input[type=text] {
 header{
     background-color: #222;
     padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.overlay h1 {
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+}
+
+.overlay h1, .overlay p{
+    color: white;
+    margin: 2%;
+}
+
+.overlay p{
+    font-size: 80%;
     padding-bottom: 5%;
 }
 
