@@ -123,6 +123,9 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+.about-usimg{
+    width: 400px;
+}
 #searchform i{
     zoom: 150%;
     color: #c78c06;
@@ -179,6 +182,11 @@ header{
     background-color: #222;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.about-us{
+    background-color: #ffe6ac;
+    padding: 5px;
 }
 
 .overlay h1 {
