@@ -76,6 +76,8 @@ ul{
 
 li a:hover {
     background-color: #c78c06;
+    margin-left: 5%;
+    margin-right: 5%;
     color:black;
   }
 
@@ -96,9 +98,8 @@ nav li{
 nav li a{
     text-align: center;
     position: relative;
-    top: 30px;
 
-    padding: 15px;
+    padding: 20px;
 }
 nav a{
     margin:0 0;/* Xpx on the top and bottom, Xpx on the left and right*/
@@ -120,24 +121,20 @@ nav ul input[type=text] {
 
 
 /***********************************************************
-                            styling
+                    STYLING IMAGES/MISC
 ***********************************************************/
+
 .logoimg{
     background-color: #c78c06;
     margin-left: 5%;
     margin-right:5%;
-    
+    padding-top: 2%;
 }
 
 .toplogo{
-    padding-left: 3%;
+    
 }
 
-header{
-    background-color: #222;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
 
 .searchbar{
     padding-bottom: 10px;
@@ -155,9 +152,17 @@ header{
     flex-direction: column;
 }
 
-.searchbar{
-    padding-top: 10%;
+/***********************************************************
+                        STYLING PARAGRAPH
+***********************************************************/
+header{
+    background-color: #222;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
+
+
 
 /***********************************************************
                             DESKTOP
