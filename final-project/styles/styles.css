@@ -130,6 +130,34 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+.marketing button{
+    background-color: #222;
+    border-color: transparent;
+    padding: 5% 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.marketing{
+   background-color: #ffe6ac;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 3%;
+}
+
+.marketing h2, .marketing p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.marketing h2, .marketing p, .marketing button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.marketingimg{
+    width: 345px;
+}
 
 .digital-transformation button{
     background-color: #222;
@@ -180,10 +208,6 @@ nav ul input[type=text] {
     padding-top: 2%;
 }
 
-.toplogo{
-    
-}
-
 .searchbar{
     padding-bottom: 10px;
 }
@@ -204,6 +228,8 @@ nav ul input[type=text] {
 /***********************************************************
                         STYLING PARAGRAPH
 ***********************************************************/
+
+
 .digital-transformation h2, .digital-transformation p, .digital-transformation button{
     margin: 2%;
 }
