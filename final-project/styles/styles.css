@@ -62,6 +62,11 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    font-size: 150%;
+    font-weight: bold;
+}
+
 
 /***********************************************************
                                 NAV
@@ -101,6 +106,7 @@ nav li a{
 
     padding: 20px;
 }
+
 nav a{
     margin:0 0;/* Xpx on the top and bottom, Xpx on the left and right*/
     text-decoration: none;/* removes the underline default from the links */
@@ -114,6 +120,7 @@ nav ul {
     overflow: hidden;
 }
 
+/* size of the search bar */
 nav ul input[type=text] {
     padding: 6px;
     font-size: 17px;
@@ -124,8 +131,10 @@ nav ul input[type=text] {
                     STYLING IMAGES/MISC
 ***********************************************************/
 .about-usimg{
-    width: 400px;
+    width: 345px;
+    
 }
+
 #searchform i{
     zoom: 150%;
     color: #c78c06;
@@ -138,16 +147,16 @@ nav ul input[type=text] {
     background-color: #c78c06;
     border-color: transparent;
     padding: 5% 5%;
+    margin-bottom: 12%;
 }
-
 
 .overlay{
     background-color:  rgba(34, 34, 34, 0.699);
     position: relative;
-    top: 15%;
+    top: 11%;
 }
 
-
+/* star logo propreties */
 .logoimg{
     background-color: #c78c06;
     margin-left: 5%;
@@ -163,6 +172,7 @@ nav ul input[type=text] {
     padding-bottom: 10px;
 }
 
+/* banner proprietes */
 .banner{
     background-image: url("../images/main-banner.jpg");
 
@@ -178,20 +188,40 @@ nav ul input[type=text] {
 /***********************************************************
                         STYLING PARAGRAPH
 ***********************************************************/
+/* header proprieties */
 header{
     background-color: #222;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.about-us{
-    background-color: #ffe6ac;
-    padding: 5px;
+.about-us P{
+    padding-bottom: 5%;
 }
 
-.overlay h1 {
-    letter-spacing: 2px;
+/* background colour for about us and position */
+.about-us{
+    background-color: #ffe6ac;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.about-us h1{
     padding-bottom: 5%;
+}
+
+/* moving the texts as a group */
+.overlay h1, .overlay p, .overlay button{
+    position: relative;
+    top: 13%;
+}
+
+/* header of overlay */
+.overlay h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-bottom: 4%;
 }
 
 .overlay h1, .overlay p{
@@ -201,7 +231,7 @@ header{
 
 .overlay p{
     font-size: 80%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 
