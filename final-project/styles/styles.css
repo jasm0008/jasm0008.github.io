@@ -130,6 +130,22 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+
+.digital-transformation button{
+    background-color: #222;
+    border-color: transparent;
+    padding: 5% 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+/* background colour for our services */
+.digital-transformation{
+    background-color:#ffe6ac;
+}
+.digitalimg{
+    width: 345px;
+}
 .about-usimg{
     width: 345px;
     
@@ -188,6 +204,20 @@ nav ul input[type=text] {
 /***********************************************************
                         STYLING PARAGRAPH
 ***********************************************************/
+.digital-transformation h2, .digital-transformation p, .digital-transformation button{
+    margin: 2%;
+}
+
+.our-services h1, .our-services h2{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.our-services{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 /* header proprieties */
 header{
     background-color: #222;
