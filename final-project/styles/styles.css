@@ -164,7 +164,31 @@ nav ul input[type=text] {
                     END OF JOHN SECTION
 ***********************************************************/
 
+/***********************************************************
+                    SECOND - OVERLAY
+***********************************************************/
+.overlay-second h1 {
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding-top: 3%;
+    font-size: 20px;
+}
 
+.overlay-second h1, .overlay-second p{
+    color: white;
+    margin: 2%;
+}
+
+.overlay-second p{
+    font-size: 80%;
+    padding-bottom: 2%;
+    line-height: 15px;
+}
+
+.overlay-second, .overlay-second button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
 .overlay-second button{
     background-color: rgba(0, 0, 0, 0.555);
     border: 1px solid #c78d0665;
@@ -180,11 +204,15 @@ nav ul input[type=text] {
 
     background-size: cover;
     height: 220px;
+    
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;
 }
+/***********************************************************
+                    END OF SECOND OVERLAY
+***********************************************************/
 
 
 .print button{
