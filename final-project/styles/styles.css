@@ -130,6 +130,64 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+.print button{
+    background-color: #222;
+    border-color: transparent;
+    padding: 5% 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.print{
+   background-color: #ffe6ac;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 3%;
+}
+
+.print h2, .print p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.print h2, .print p, .print button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.printimg{
+    width: 100%;
+}
+
+.web-development button{
+    background-color: #222;
+    border-color: transparent;
+    padding: 5% 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.web-development{
+   background-color: #ffe6ac;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 3%;
+}
+
+.web-development h2, .web-development p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.web-development h2, .web-development p, .web-development button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.webdevimg{
+    width: 100%;
+}
+
 .video-production button{
     background-color: #222;
     border-color: transparent;
@@ -158,8 +216,6 @@ nav ul input[type=text] {
 .videoimg{
     width: 100%;
 }
-
-
 
 .marketing button{
     background-color: #222;
