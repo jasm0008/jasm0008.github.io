@@ -156,7 +156,7 @@ nav ul input[type=text] {
 }
 
 .marketingimg{
-    width: 345px;
+    width: 100%;
 }
 
 .digital-transformation button{
@@ -172,10 +172,10 @@ nav ul input[type=text] {
     background-color:#ffe6ac;
 }
 .digitalimg{
-    width: 345px;
+    width: 100%;
 }
 .about-usimg{
-    width: 345px;
+    width: 100%;
     
 }
 
