@@ -67,6 +67,11 @@ h2{
     font-weight: bold;
 }
 
+h3{
+        font-size: 100%;
+        font-weight: bold;
+}
+
 
 /***********************************************************
                                 NAV
@@ -128,8 +133,60 @@ nav ul input[type=text] {
 
 
 /***********************************************************
-                    STYLING IMAGES/MISC
+                        JOHN SECTION
 ***********************************************************/
+.our-team h1{
+    margin-left: 2%;
+}
+
+.john{
+    background-color: #ffe6ac;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+ }
+
+ .john h2, .john p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.john h2, .john h3, .john p, .john button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.johnimg{
+    width: 100%;
+
+}
+/***********************************************************
+                    END OF JOHN SECTION
+***********************************************************/
+
+
+.overlay-second button{
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 1px solid #c78d0665;
+    padding: 5% 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.second-banner{
+    background-image: url("../images/vision.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 220px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .print button{
     background-color: #222;
     border-color: transparent;
@@ -311,10 +368,13 @@ nav ul input[type=text] {
     display: flex;
     flex-direction: column;
 }
-
 /***********************************************************
                         STYLING PARAGRAPH
 ***********************************************************/
+
+
+
+
 
 .digital-transformation h2, .digital-transformation p, .digital-transformation button{
     margin: 2%;
