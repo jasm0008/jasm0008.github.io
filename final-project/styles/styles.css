@@ -130,6 +130,37 @@ nav ul input[type=text] {
 /***********************************************************
                     STYLING IMAGES/MISC
 ***********************************************************/
+.video-production button{
+    background-color: #222;
+    border-color: transparent;
+    padding: 5% 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.video-production{
+   background-color: #ffe6ac;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 3%;
+}
+
+.video-production h2, .video-production p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.video-production h2, .video-production p, .video-production button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.videoimg{
+    width: 100%;
+}
+
+
+
 .marketing button{
     background-color: #222;
     border-color: transparent;
@@ -228,7 +259,6 @@ nav ul input[type=text] {
 /***********************************************************
                         STYLING PARAGRAPH
 ***********************************************************/
-
 
 .digital-transformation h2, .digital-transformation p, .digital-transformation button{
     margin: 2%;
