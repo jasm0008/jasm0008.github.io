@@ -147,7 +147,7 @@ nav ul input[type=text] {
     background-color: #c78c06;
     border-color: transparent;
     padding: 5% 5%;
-    margin-bottom: 12%;
+    margin-bottom: 5%;
 }
 
 .overlay{
@@ -214,14 +214,15 @@ header{
 /* moving the texts as a group */
 .overlay h1, .overlay p, .overlay button{
     position: relative;
-    top: 13%;
+    top: 5%;
 }
 
 /* header of overlay */
 .overlay h1 {
     font-size: 35px;
     letter-spacing: 2px;
-    padding-bottom: 4%;
+    line-height: 50px;
+    padding-top: 3%;
 }
 
 .overlay h1, .overlay p{
@@ -231,7 +232,8 @@ header{
 
 .overlay p{
     font-size: 80%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
+    line-height: 15px;
 }
 
 
