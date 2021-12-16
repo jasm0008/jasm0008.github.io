@@ -703,13 +703,8 @@ header{
         /* centers the childrens from the class using-viewport */
         margin-left: auto;
         margin-right: auto;
-    
         /* percent responds to the element's parent, in this case the element with the class .using-viewport */
-        
         background-position: center;
-    
-  
-    
     }
     
     .toplogo{
@@ -719,12 +714,8 @@ header{
     }
     
     .main-bannerimg{
-     
         width:1200px;
-       
-    
         margin-top: 30px ;
-       
     /* 
         position:absolute;
         z-index:-1; */
