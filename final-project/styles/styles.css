@@ -615,11 +615,17 @@ header{
 
 
 
-    
+
 #message, #username, #useremail{
     width: 500px;
 }
 
+
+/***********************************************************
+                        BOTTOM GRID
+***********************************************************/
+
+/* this creates the template grid for the contact us, form and business hours */
 .information{
     display:grid;
     grid-template-rows: repeat(3, 1fr);
@@ -643,6 +649,10 @@ header{
     grid-column-start: 1;
     grid-column-end: 7;
 }
+
+/***********************************************************
+                    END OF BOTTOM GRID
+***********************************************************/
 
 /***********************************************************
                         MAIN ovarlay
