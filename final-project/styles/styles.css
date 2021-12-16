@@ -131,6 +131,91 @@ nav ul input[type=text] {
     font-size: 17px;
   }
 
+/***********************************************************
+                            TABLE
+***********************************************************/
+td{
+    padding -left: 2%;
+}
+table{
+    width: 100%;
+    line-height: 40px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1) {
+    background-color: #ffe6ac;
+}
+/***********************************************************
+                        END OF TABLE
+***********************************************************/
+
+/***********************************************************
+                        CONTACT SECTION
+***********************************************************/
+.information{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+.information h2{
+    margin-bottom: 2%;
+}
+.information h1{
+    margin-bottom: 5%;
+}
+
+.information button{
+    background-color: #222;
+    border-color: transparent;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    color: #c78c06;
+}
+
+.information p{
+    padding-bottom: 2%;
+}
+
+
+
+  /***********************************************************
+                    END OF CONTACT SECTION
+***********************************************************/
+  /***********************************************************
+                        BOB SECTION
+***********************************************************/
+.bob h1{
+    margin-left: 2%;
+}
+
+.bob{
+    background-color: #ffe6ac;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+ }
+
+ .bob h2, .bob p{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.bob h2, .bob h3, .bob p, .bob button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bobimg{
+    width: 100%;
+
+}
+/**********************************************************
+                    END OF BOB SECTION
+***********************************************************/
 
 /***********************************************************
                         JOHN SECTION
@@ -160,12 +245,12 @@ nav ul input[type=text] {
     width: 100%;
 
 }
-/***********************************************************
+/**********************************************************
                     END OF JOHN SECTION
 ***********************************************************/
 
 /***********************************************************
-                    SECOND - OVERLAY
+                     SECOND - OVERLAY
 ***********************************************************/
 .overlay-second h1 {
     letter-spacing: 2px;
