@@ -613,17 +613,59 @@ header{
         background-position: center;
     }
 
-
-
-
-#message, #username, #useremail{
-    width: 500px;
+.our-team-title{
+    margin-top: 12px;
 }
+
+footer{
+    padding: 0;
+    margin: 0;
+}
+
+/***********************************************************
+                        OUR TEAM
+***********************************************************/
+.our-team{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.john{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+    display: flex;
+    flex: 1;
+
+    height: 400px;
+}
+
+.bob{
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+    display: flex;
+    flex: 1;
+
+    height: 400px;
+}
+/***********************************************************
+                        END OF OUR TEAM
+***********************************************************/
+
+
+
 
 
 /***********************************************************
-                        BOTTOM GRID
+                    FORM AND BOTTOM GRID
 ***********************************************************/
+#message, #username, #useremail{
+    width: 500px;
+}
 
 /* this creates the template grid for the contact us, form and business hours */
 .information{
